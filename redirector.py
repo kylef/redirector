@@ -11,10 +11,12 @@ class Redirector(RedirectView):
 
         for redirect in self.redirects:
             if fnmatch.fnmatch(host, redirect['host']):
+                zones = host.split('.')
                 parameters = {
                     'scheme': self.request.scheme,
                     'host': host,
-                    'zones': host.split('.'),
+                    'zones': zones,
+                    'subdomain': '.'.join(zones[0:-2]),
                     'path': self.request.path
                 }
 
