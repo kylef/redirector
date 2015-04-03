@@ -1,0 +1,8 @@
+- host: '*fuller.li'
+  destination: http://kylefuller.co.uk{path}
+- host: '*querykit.org'
+  destination: https://github.com/QueryKit
+- host: www.palaverapp.com
+  destination: http://palaverapp.com{path}
+- host: www.cocode.org
+  destination: http://cocode.org{path}

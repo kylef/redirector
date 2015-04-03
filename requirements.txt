@@ -1,0 +1,4 @@
+PyYAML==3.11
+gunicorn==19.3.0
+rivr==0.6.0
+wsgiref==0.1.2

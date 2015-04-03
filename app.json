@@ -1,0 +1,13 @@
+{
+    "name": "Redirector",
+    "description": "Simple web server for HTTP redirecting from one domain to another.",
+    "repository": "https://github.com/kylef/redirector",
+    "website": "https://github.com/kylef/redirector",
+    "keywords": [
+        "redirect"
+    ],
+    "addons": [],
+    "scripts": {},
+    "env": {}
+}
+
