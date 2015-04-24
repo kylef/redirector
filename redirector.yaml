@@ -1,3 +1,5 @@
+- host: 'slides.fuller.li'
+  destination: http://speakerdeck.com/kylef
 - host: '*fuller.li'
   destination: http://kylefuller.co.uk{path}
 - host: '*querykit.org'
