@@ -8,3 +8,5 @@
   destination: http://palaverapp.com{path}
 - host: www.cocode.org
   destination: http://cocode.org{path}
+- host: '*palaver.chat'
+  destination: http://palaverapp.com{path}
